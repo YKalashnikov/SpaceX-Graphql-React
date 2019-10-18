@@ -11,9 +11,9 @@ import Ships from "./components/Ships";
 import ShipDetails from "./components/ShipDetails";
 import "./App.css";
 import logo from "./logos/download (1).png";
-
+//"http://localhost:4000/graphql"
 const client = new ApolloClient({
-  uri: "http://localhost:4000/graphql"
+  uri: "/graphql"
 });
 
 class App extends Component {
